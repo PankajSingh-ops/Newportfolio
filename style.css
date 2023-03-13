@@ -1,0 +1,516 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@500&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    border: 0;
+    font-family: 'Golos Text', sans-serif;
+    scroll-behavior: smooth;
+}
+header{
+    width: 100%;
+    height: 36rem;
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: aqua; */
+}
+.part1{
+    width: 68%;
+    height: 100%;
+    background-color: rgb(72,49,212);
+}
+.part2{
+    width: 32%;
+    height: 100%;
+    background-color: rgb(204,243,129);
+}
+.icon{
+    width: 150px;
+    height: 140px;
+    margin-left: 3rem;
+}
+.icon img{
+    width: 100%;
+    height: 100%;
+}
+.para1{
+    color:rgb(204,243,129);
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    margin-top: 2rem;
+    margin-left: 20%;
+    /* background-color: aqua; */
+}
+.para1 h1{
+    font-size: 48px;
+}
+.para3{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    margin-top: 3.5rem;
+}
+.para3>div:nth-of-type(1){
+    width: 25%;
+    height: auto;
+}
+.para3>div:nth-of-type(2){
+    width: 25%;
+    height: auto;
+}
+.para3>div:nth-of-type(3){
+    width: 25%;
+    height: auto;
+}
+.image{
+    position: absolute;
+    width: 300px;
+    height: 260px;
+    top: 30%;
+    left: 55%;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+}
+.svg1{
+    width: 100%;
+    height: 5rem;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 3rem;
+
+}
+.aboutme{
+    width: 100%;
+    height: 40rem;
+    background-color: aliceblue;
+    color:rgb(72,49,212);
+    display: flex;
+}
+.aboutmepara{
+    width: 50%;
+    height: auto;
+    padding-top: 10%;
+    
+}
+.aboutmepara h1{
+    font-size: 46px;
+    margin-left: 30%;
+}
+.aboutmepara p{
+    font-size: 13px;
+    margin-left: 5rem;
+}
+.aboutmepic{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.animepic{
+    width: 300px;
+    height: 350px;
+    border: 1px solid black;
+}
+.skills{
+    width: 100%;
+    height: 40rem;
+    background-color: rgb(72,49,212);
+display: flex;
+    
+}
+.skills1 {
+    display: flex;
+flex-direction: column;
+    width: 40%;
+    height: 100%;
+    justify-content: center;
+    padding-top: 2rem;
+    
+    
+
+    /* background-color: bisque; */
+}
+.skills1 h1{
+    color:rgb(204,243,129);
+    font-size: 48px;
+    padding-left: 30%;
+    
+}
+.skills1>div:nth-of-type(1){
+    color: white;
+    font-size: 14px;
+    /* background-color: aqua; */
+    width: 70%;
+    margin-left: 16%;
+    
+}
+.skills2{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+.lang{
+    position: relative;
+    width: 150px;
+    height: 5rem;
+    border: 1px solid rgb(66, 42, 217);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px 0px;
+    border-color: rgb(66, 42, 217);
+    flex-wrap: wrap;
+    background-color: rgb(66, 42, 217);
+    color:rgb(204,243,129);
+
+    
+}
+#q1{
+    position: relative;
+    top: -10rem;
+    left: -2rem;
+    width: 150px;
+    height: 5rem;
+}
+#q2{
+    position: relative;
+    top: 5rem;
+    left: -2rem;
+    width: 150px;
+    height: 5rem;
+}
+#q3{
+    position: relative;
+    top: -10rem;
+    left: -10rem;
+}
+#q4{
+    position: relative;
+    top: -10rem;
+    left: -32rem;
+}
+#q5{
+    position: relative;
+    top: -2rem;
+    left: -12rem;
+}
+#q6{
+    position: relative;
+    left: -40rem;
+}
+.myprojects{
+    width: 100%;
+    height: 37rem;
+    background-color: rgb(240,248,255);
+    display: flex;
+    line-height: 1.4rem;
+    border-top: 1px solid rgb(66, 42, 217); 
+    
+
+}
+/* #headpro{
+    width: 100%;
+    height: 10rem;
+    background-color: bisque;
+} */
+#projecthead{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(240,248,255);;
+}
+#projecthead>h1{
+    font-size: 56px;
+    padding: 3rem;
+    color:rgb(66, 42, 217);
+}
+.project1{
+    width: 50%;
+    height: 37rem;
+    background-color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    padding-top: 3.5rem;
+    
+}
+.project1 h1{
+    color:rgb(66, 42, 217); 
+    font-size: 40px;
+}
+.project1 p{
+    font-size: 13px;
+}
+.project2{
+    width: 50%;
+    height: 37rem;
+    background-color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    padding-bottom: 3rem;
+}
+#hr1{
+    width: 1px;
+    height: 68rem;
+    background-color:rgb(66, 42, 217);
+    z-index: 1;
+}
+.project2 h1{
+    color:rgb(66, 42, 217); 
+    font-size: 40px;
+}
+.project2 p{
+    font-size: 13px;
+}
+.button1{
+    width: 200px;
+    height: 3rem;
+    border: 1px solid rgb(66, 42, 217); ;
+    position: relative;
+    right: 33%;
+    
+}
+.button1 button{
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: transparent;
+    color: rgb(66, 42, 217); 
+} 
+.button1:hover button{
+    background-color:rgb(66, 42, 217);  
+    transition-duration: 1.2s;
+    color: white;
+
+}
+.button2{
+    width: 200px;
+    height: 3rem;
+    border: 1px solid rgb(66, 42, 217); ;
+    position: relative;
+    right: 33%;
+    top: 4.3rem;
+    
+}
+.button2 button{
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: transparent;
+    color: rgb(66, 42, 217); 
+} 
+.button2:hover button{
+    background-color:rgb(66, 42, 217);  
+    transition-duration: 1.2s;
+    color: white;
+
+}
+.myproject2{
+    width: 100%;
+    height: 31.5rem;
+    background-color: white;
+    display: flex;
+    line-height: 1.3rem;
+    border-bottom: 1px solid rgb(66, 42, 217); ;
+}
+.project3{
+    width: 49.9%;
+    height: 30rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    padding-bottom: 3rem;
+}
+.project3 h1{
+    color:rgb(66, 42, 217); 
+    font-size: 40px;
+}
+.project3 p{
+    font-size: 13px;
+}
+.project4{
+    width: 49.6%;
+    height: 30rem;
+     background-color:white; 
+     display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 1rem;
+    padding-top: 1.5rem; 
+}
+.project4 h1{
+    color:rgb(66, 42, 217); 
+    font-size: 40px;
+}
+.project4 p{
+    font-size: 13px;
+}
+
+#hr2{
+    width: 1px;
+    background-color: rgb(66, 42, 217); 
+    height: 150rem;
+    transform: rotate(-90deg);
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    bottom: 76rem;
+    
+}
+.button3{
+    width: 200px;
+    height: 3rem;
+    border: 1px solid rgb(66, 42, 217); ;
+    position: relative;
+    right: 33%;
+    top: 1rem;
+    
+}
+.button3 button{
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: transparent;
+    color: rgb(66, 42, 217); 
+} 
+.button3:hover button{
+    background-color:rgb(66, 42, 217);  
+    transition-duration: 1.2s;
+    color: white;
+
+}
+.button4{
+    width: 200px;
+    height: 3rem;
+    border: 1px solid rgb(66, 42, 217); ;
+    position: relative;
+    right: 33%;
+    
+}
+.button4 button{
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: transparent;
+    color: rgb(66, 42, 217); 
+} 
+.button4:hover button{
+    background-color:rgb(66, 42, 217);  
+    transition-duration: 1.2s;
+    color: white;
+
+}
+.contactme{
+    width: 100%;
+    height: 35rem;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+}
+.contactme>h1:nth-child(1){
+font-size: 48px;
+color: rgb(66, 42, 217);  
+}
+.name{
+    position: relative;
+    display: flex;
+    bottom: 25rem;
+    justify-content: space-around;
+
+    
+    
+}
+.name input{
+    background-color:transparent;
+    width: 300px;
+    height: 3rem;
+    border-bottom: 1px solid black;
+}
+#fname{
+    position: relative;
+    left: 5rem;
+}
+#lname{
+    position: relative;
+    right:5rem;
+}
+.name input:hover{
+    background-color: aquamarine;
+}
+#mail{
+    position: relative;
+    display: flex;
+    bottom: 22rem;
+    justify-content: center
+}
+#mail input{
+    background-color:transparent;
+    width: 300px;
+    height: 3rem;
+    border-bottom: 1px solid black;
+}
+#mail input:hover{
+    background-color: aquamarine;
+}
+#email{
+    position: relative;
+    right: 4.7rem;
+}
+#tele{
+    position: relative;
+    left: 4.2rem;
+}
+.comment{
+    position: relative;
+    bottom: 18rem;
+    display: flex;
+    justify-content: center;
+}
+#com{
+    width: 40%;
+    height: 10rem;
+    position: relative;
+    right: 5.7rem;
+    background-color: transparent;
+    border-bottom: 1px solid black;
+}
+#buttonc{
+    position: relative;
+    left: 0rem;
+    width: 100px;
+    height: 2.2rem;
+    top: 3.5rem;
+    background-color: white;
+}
+#buttonc:hover{
+background-color: rgb(66, 42, 217); ;
+}
